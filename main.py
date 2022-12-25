@@ -1,4 +1,6 @@
 import solution1480
+import solution1
+import solution9
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -10,6 +12,28 @@ if __name__ == '__main__':
 
     answer = solution1480.runningSum([3, 1, 2, 10, 1])
     print(answer)
+
+    solution1 = solution1.Solution()
+    answer = solution1.twoSum([2, 7, 11, 15], 9)
+    print(answer)
+
+    answer = solution1.twoSum([3, 2, 4], 6)
+    print(answer)
+
+    answer = solution1.twoSum([3, 3], 6)
+    print(answer)
+
+    solution9 = solution9.Solution()
+    answer = solution9.isPalindrome(121)
+    print(answer)
+
+    answer = solution9.isPalindrome(-121)
+    print(answer)
+
+    answer = solution9.isPalindrome(10)
+    print(answer)
+
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
