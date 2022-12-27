@@ -1,6 +1,7 @@
 import solution1480
 import solution1
 import solution9
+import solution13
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -33,7 +34,14 @@ if __name__ == '__main__':
     answer = solution9.isPalindrome(10)
     print(answer)
 
+    solution13 = solution13.Solution()
+    answer = solution13.romanToInt("III")
+    print(answer)
 
+    answer = solution13.romanToInt("LVIII")
+    print(answer)
 
+    answer = solution13.romanToInt("MCMXCIV")
+    print(answer)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
