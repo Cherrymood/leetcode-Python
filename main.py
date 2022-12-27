@@ -2,6 +2,7 @@ import solution1480
 import solution1
 import solution9
 import solution13
+import solution14
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -43,5 +44,17 @@ if __name__ == '__main__':
 
     answer = solution13.romanToInt("MCMXCIV")
     print(answer)
+
+    solution14 = solution14.Solution()
+    answer = solution14.longestCommonPrefix(["flower", "flow", "flight"])
+    print(answer)
+
+    answer = solution14.longestCommonPrefix(["dog", "racecar", "car"])
+    print(answer)
+
+    answer = solution14.longestCommonPrefix(["dog"])
+    print(answer)
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
