@@ -3,6 +3,7 @@ import solution1
 import solution9
 import solution13
 import solution14
+import solution20
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -55,6 +56,20 @@ if __name__ == '__main__':
     answer = solution14.longestCommonPrefix(["dog"])
     print(answer)
 
+    solution20 = solution20.Solution()
+    answer = solution20.isValid("()")
+    print(answer)
 
+    answer = solution20.isValid("(]")
+    print(answer)
+
+    answer = solution20.isValid("()[]{}")
+    print(answer)
+
+    answer = solution20.isValid("(")
+    print(answer)
+
+    answer = solution20.isValid("]")
+    print(answer)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
