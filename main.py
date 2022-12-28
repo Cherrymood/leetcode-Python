@@ -5,6 +5,8 @@ import solution13
 import solution14
 import solution20
 import solution58
+import solution21
+import solution125
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -81,6 +83,26 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution58.lengthOfLastWord("luffy is still joyboy")
+    print(answer)
+
+    solution21 = solution21.Solution()
+    answer = solution21.mergeTwoLists([1, 2, 4], [1, 3, 4])
+    print(answer)
+
+    answer = solution21.mergeTwoLists([], [])
+    print(answer)
+
+    answer = solution21.mergeTwoLists([], [0])
+    print(answer)
+
+    solution125 = solution125.Solution()
+    answer = solution125.isPalindrome("A man, a plan, a canal: Panama")
+    print(answer)
+
+    answer = solution125.isPalindrome("race a car")
+    print(answer)
+
+    answer = solution125.isPalindrome(" ")
     print(answer)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
