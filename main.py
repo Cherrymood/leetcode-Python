@@ -4,6 +4,7 @@ import solution9
 import solution13
 import solution14
 import solution20
+import solution58
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -70,6 +71,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution20.isValid("]")
+    print(answer)
+
+    solution58 = solution58.Solution()
+    answer = solution58.lengthOfLastWord("Hello World")
+    print(answer)
+
+    answer = solution58.lengthOfLastWord("   fly me   to   the moon  ")
+    print(answer)
+
+    answer = solution58.lengthOfLastWord("luffy is still joyboy")
     print(answer)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
