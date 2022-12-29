@@ -9,6 +9,7 @@ import solution21
 import solution125
 import solution421
 import Solution1523
+import solution1491
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -129,5 +130,13 @@ if __name__ == '__main__':
 
     answer = Solution1523.countOdds(0,15)
     print(answer)
+
+    solution1491 = solution1491.Solution()
+    answer = solution1491.average([4000,3000,1000,2000])
+    print(answer)
+
+    answer = solution1491.average([4000,4700,7000])
+    print(answer)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
