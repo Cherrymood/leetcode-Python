@@ -7,6 +7,8 @@ import solution20
 import solution58
 import solution21
 import solution125
+import solution421
+import Solution1523
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -103,6 +105,29 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution125.isPalindrome(" ")
+    print(answer)
+
+    solution421 = solution421.Solution()
+    answer = solution421.fizzBuzz(3)
+    print(answer)
+
+    answer = solution421.fizzBuzz(5)
+    print(answer)
+
+    answer = solution421.fizzBuzz(15)
+    print(answer)
+
+    answer = solution421.fizzBuzz(22)
+    print(answer)
+
+    Solution1523 = Solution1523.Solution()
+    answer = Solution1523.countOdds(3, 8)
+    print(answer)
+
+    answer = Solution1523.countOdds(5, 9)
+    print(answer)
+
+    answer = Solution1523.countOdds(0,15)
     print(answer)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
