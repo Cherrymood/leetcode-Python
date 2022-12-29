@@ -10,6 +10,7 @@ import solution125
 import solution421
 import Solution1523
 import solution1491
+import solution1581
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -136,6 +137,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1491.average([4000,4700,7000])
+    print(answer)
+
+    solution1581 = solution1581.Solution()
+    answer = solution1581.subtractProductAndSum(234)
+    print(answer)
+
+    answer = solution1581.subtractProductAndSum(4421)
+    print(answer)
+
+    answer = solution1581.subtractProductAndSum(5555)
     print(answer)
 
 
