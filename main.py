@@ -11,6 +11,7 @@ import solution421
 import Solution1523
 import solution1491
 import solution1581
+import solution191
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -147,6 +148,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1581.subtractProductAndSum(5555)
+    print(answer)
+
+    solution191 = solution191.Solution()
+    answer = solution191.hammingWeight(00000000000000000000000000001011)
+    print(answer)
+
+    answer = solution191.hammingWeight(00000000000000000000000010000000)
+    print(answer)
+
+    answer = solution191.hammingWeight(11111111111111111111111111111101)
     print(answer)
 
 
