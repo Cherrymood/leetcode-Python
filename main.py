@@ -13,6 +13,7 @@ import solution1491
 import solution1581
 import solution191
 import solution66
+import solution231
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -171,6 +172,19 @@ if __name__ == '__main__':
     answer = solution66.plusOne([9])
 
     answer = solution66.plusOne([9, 9, 9, 9])
+    print(answer)
+
+    solution231 = solution231.Solution()
+    answer = solution231.isPowerOfTwo(1)
+    print(answer)
+
+    answer = solution231.isPowerOfTwo(16)
+    print(answer)
+
+    answer = solution231.isPowerOfTwo(3)
+    print(answer)
+
+    answer = solution231.isPowerOfTwo(-15)
     print(answer)
 
 
