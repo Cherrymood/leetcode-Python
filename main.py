@@ -12,6 +12,7 @@ import Solution1523
 import solution1491
 import solution1581
 import solution191
+import solution66
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -151,13 +152,25 @@ if __name__ == '__main__':
     print(answer)
 
     solution191 = solution191.Solution()
-    answer = solution191.hammingWeight(00000000000000000000000000001011)
+    answer = solution191.hammingWeight(1011)
     print(answer)
 
-    answer = solution191.hammingWeight(00000000000000000000000010000000)
+    answer = solution191.hammingWeight(10000000)
     print(answer)
 
     answer = solution191.hammingWeight(11111111111111111111111111111101)
+    print(answer)
+
+    solution66 = solution66.Solution()
+    answer = solution66.plusOne([1,2,3])
+    print(answer)
+
+    answer = solution66.plusOne([4,3,2,2])
+    print(answer)
+
+    answer = solution66.plusOne([9])
+
+    answer = solution66.plusOne([9, 9, 9, 9])
     print(answer)
 
 
