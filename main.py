@@ -14,6 +14,7 @@ import solution1581
 import solution191
 import solution66
 import solution231
+import solution976
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -185,6 +186,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution231.isPowerOfTwo(-15)
+    print(answer)
+
+    solution976 = solution976.Solution()
+    answer = solution976.largestPerimeter([2, 1, 2])
+    print(answer)
+
+    answer = solution976.largestPerimeter([1,2,1,10])
+    print(answer)
+
+    answer = solution976.largestPerimeter([3,6,2,3])
     print(answer)
 
 
