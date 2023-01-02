@@ -17,6 +17,7 @@ import solution231
 import solution976
 import solution1790
 import solution1502
+import solution1822
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -220,13 +221,23 @@ if __name__ == '__main__':
     print(answer)
 
     solution1502 = solution1502.Solution()
-    answer = solution1502.canMakeArithmeticProgression([3,5,1])
+    answer = solution1502.canMakeArithmeticProgression([3, 5, 1])
     print(answer)
 
-    answer = solution1502.canMakeArithmeticProgression([1,2,4])
+    answer = solution1502.canMakeArithmeticProgression([1, 2, 4])
     print(answer)
 
-    answer = solution1502.canMakeArithmeticProgression([13,12,-12,9,9,16,7,-10,-20,0,18,-1,-20,-10,-8,15,15,16,2,15])
+    answer = solution1502.canMakeArithmeticProgression([13, 12, -12, 9, 9, 16, 7, -10, -20, 0, 18, -1, -20, -10, -8, 15, 15, 16, 2, 15])
+    print(answer)
+
+    solution1822 = solution1822.Solution()
+    answer = solution1822.arraySign([-1, -2, -3, -4, 3, 2, 1])
+    print(answer)
+
+    answer = solution1822.arraySign([1, 5, 0, 2, -3])
+    print(answer)
+
+    answer = solution1822.arraySign([-1, 1, -1, 1, -1])
     print(answer)
 
 
