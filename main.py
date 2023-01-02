@@ -15,6 +15,8 @@ import solution191
 import solution66
 import solution231
 import solution976
+import solution1790
+import solution1502
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -197,6 +199,36 @@ if __name__ == '__main__':
 
     answer = solution976.largestPerimeter([3,6,2,3])
     print(answer)
+
+    solution1790 = solution1790.Solution()
+    answer = solution1790.areAlmostEqual("bank", "kanb")
+    print(answer)
+
+    answer = solution1790.areAlmostEqual("attack", "defend")
+    print(answer)
+
+    answer = solution1790.areAlmostEqual("kelb", "kelb")
+    print(answer)
+
+    answer = solution1790.areAlmostEqual("aa", "ac")
+    print(answer)
+
+    answer = solution1790.areAlmostEqual("aab", "acb")
+    print(answer)
+
+    answer = solution1790.areAlmostEqual("ca", "ac")
+    print(answer)
+
+    solution1502 = solution1502.Solution()
+    answer = solution1502.canMakeArithmeticProgression([3,5,1])
+    print(answer)
+
+    answer = solution1502.canMakeArithmeticProgression([1,2,4])
+    print(answer)
+
+    answer = solution1502.canMakeArithmeticProgression([13,12,-12,9,9,16,7,-10,-20,0,18,-1,-20,-10,-8,15,15,16,2,15])
+    print(answer)
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
