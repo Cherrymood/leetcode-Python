@@ -22,6 +22,7 @@ import solution202
 import solution496
 import solution1588
 import solution1672
+import solution283
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -280,6 +281,14 @@ if __name__ == '__main__':
 
     answer = solution1672.maximumWealth([[2,8,7],[7,1,3],[1,9,5]])
     print(answer)
+
+    solution283 = solution283.Solution()
+    answer = solution283.moveZeroes([0,1,0,3,12])
+    print(answer)
+
+    answer = solution283.moveZeroes([0])
+    print(answer)
+
 
 
 
