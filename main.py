@@ -20,6 +20,7 @@ import solution1502
 import solution1822
 import solution202
 import solution496
+import  solution1588
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -257,6 +258,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution496.nextGreaterElement([2, 4], [1, 2, 3, 4])
+    print(answer)
+
+    solution1588 = solution1588.Solution()
+    answer = solution1588.sumOddLengthSubarrays([1,4,2,5,3])
+    print(answer)
+
+    answer = solution1588.sumOddLengthSubarrays([1, 2])
+    print(answer)
+
+    answer = solution1588.sumOddLengthSubarrays([10,11,12])
     print(answer)
 
 
