@@ -18,6 +18,8 @@ import solution976
 import solution1790
 import solution1502
 import solution1822
+import solution202
+import solution496
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -238,6 +240,23 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1822.arraySign([-1, 1, -1, 1, -1])
+    print(answer)
+
+    solution202 = solution202.Solution()
+    answer = solution202.isHappy(19)
+    print(answer)
+
+    answer = solution202.isHappy(2)
+    print(answer)
+
+    answer = solution202.isHappy(4)
+    print(answer)
+
+    solution496 = solution496.Solution()
+    answer = solution496.nextGreaterElement([4, 1, 2], [1, 3, 4, 2])
+    print(answer)
+
+    answer = solution496.nextGreaterElement([2, 4], [1, 2, 3, 4])
     print(answer)
 
 

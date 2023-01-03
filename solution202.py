@@ -1,6 +1,21 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
+        if n == 1: return True
+        l = []
 
-        while n > 5: n = sum((int(i)) ** 2 for i in str(n))
-        return True if n == 1 else False
+        def calculate(n):
+            c = 0
+            for i in str(n):
+                c += int(i) ** 2
+            return c
+
+        while n != 1:
+            n = calculate(n)
+            if n in l:
+                return False
+            l.append(n)
+        return True
+
+
+
 
