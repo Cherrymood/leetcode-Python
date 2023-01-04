@@ -23,6 +23,8 @@ import solution496
 import solution1588
 import solution1672
 import solution283
+import solution1779
+
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -287,6 +289,19 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution283.moveZeroes([0])
+    print(answer)
+
+    solution1779 = solution1779.Solution()
+    answer = solution1779.nearestValidPoint(3, 4, [[1, 2], [3, 1], [2, 4], [2, 3], [4, 4]])
+    print(answer)
+
+    answer = solution1779.nearestValidPoint(3, 4, [[3, 4]])
+    print(answer)
+
+    answer = solution1779.nearestValidPoint(3, 4, [[2, 3]])
+    print(answer)
+
+    answer = solution1779.nearestValidPoint(1, 1, [[1, 2], [3, 3], [3, 3]])
     print(answer)
 
 
