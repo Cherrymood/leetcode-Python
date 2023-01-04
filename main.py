@@ -24,6 +24,7 @@ import solution1588
 import solution1672
 import solution283
 import solution1779
+import solution1232
 
 
 if __name__ == '__main__':
@@ -302,6 +303,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1779.nearestValidPoint(1, 1, [[1, 2], [3, 3], [3, 3]])
+    print(answer)
+
+    solution1232 = solution1232.Solution()
+    answer = solution1232.checkStraightLine([[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]])
+    print(answer)
+
+    answer = solution1232.checkStraightLine([[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]])
     print(answer)
 
 
