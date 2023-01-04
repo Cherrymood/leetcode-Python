@@ -26,6 +26,7 @@ import solution283
 import solution1779
 import solution1232
 import solution1572
+import solution566
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -321,6 +322,19 @@ if __name__ == '__main__':
 
     answer = solution1572.diagonalSum([[5]])
     print(answer)
+
+    solution566 = solution566.Solution()
+    answer = solution566.matrixReshape([[1,2],[3,4]], 1, 4)
+    print(answer)
+
+    answer = solution566.matrixReshape([[1,2],[3,4]], 2, 4)
+    print(answer)
+
+    answer = solution566.matrixReshape([[5]], 2, 9)
+    print(answer)
+
+
+
 
 
 
