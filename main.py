@@ -25,7 +25,7 @@ import solution1672
 import solution283
 import solution1779
 import solution1232
-
+import solution1572
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -310,6 +310,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1232.checkStraightLine([[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]])
+    print(answer)
+
+    solution1572 = solution1572.Solution()
+    answer = solution1572.diagonalSum([[1,2,3],[4,5,6],[7,8,9]])
+    print(answer)
+
+    answer = solution1572.diagonalSum([[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]])
+    print(answer)
+
+    answer = solution1572.diagonalSum([[5]])
     print(answer)
 
 
