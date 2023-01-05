@@ -28,6 +28,7 @@ import solution1232
 import solution1572
 import solution566
 import solution1768
+import solution1678
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -339,6 +340,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1768.mergeAlternately("ab", "pqrs")
+    print(answer)
+
+    solution1678 = solution1678.Solution()
+    answer = solution1678.interpret("G()(al)")
+    print(answer)
+
+    answer = solution1678.interpret("G()()()()(al)")
+    print(answer)
+
+    answer = solution1678.interpret("(al)G(al)()()G")
     print(answer)
 
 
