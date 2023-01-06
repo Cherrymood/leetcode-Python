@@ -31,6 +31,7 @@ import solution1768
 import solution1678
 import solution389
 import solution709
+import solution819
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -373,6 +374,15 @@ if __name__ == '__main__':
 
     answer = solution709.toLowerCase("LOVELY")
     print(answer)
+
+    solution819 = solution819.Solution()
+    answer = solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
+    print(answer)
+
+    answer = solution819.mostCommonWord("a.", [])
+    print(answer)
+
+
 
 
 
