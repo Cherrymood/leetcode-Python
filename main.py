@@ -33,6 +33,7 @@ import solution389
 import solution709
 #import solution819
 import solution1309
+import solution242
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -388,6 +389,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1309.freqAlphabets("1326#")
+    print(answer)
+
+    solution242 = solution242.Solution()
+    answer = solution242.isAnagram("anagram", "nagaram")
+    print(answer)
+
+    answer = solution242.isAnagram("rat", "car")
     print(answer)
 
 
