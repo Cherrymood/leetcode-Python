@@ -35,6 +35,7 @@ import solution709
 import solution1309
 import solution242
 import solution217
+import solution136
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -407,6 +408,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution217.containsDuplicate([1,1,1,3,3,4,3,2,4,2])
+    print(answer)
+
+    solution136 = solution136.Solution()
+    answer = solution136.singleNumber([2,2,1])
+    print(answer)
+
+    answer = solution136.singleNumber([4,1,2,1,2])
+    print(answer)
+
+    answer = solution136.singleNumber([1])
     print(answer)
 
 
