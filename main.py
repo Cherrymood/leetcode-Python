@@ -34,6 +34,7 @@ import solution709
 #import solution819
 import solution1309
 import solution242
+import solution217
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -396,6 +397,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution242.isAnagram("rat", "car")
+    print(answer)
+
+    solution217 = solution217.Solution()
+    answer = solution217.containsDuplicate([1,2,3,1])
+    print(answer)
+
+    answer = solution217.containsDuplicate([1,2,3,4])
+    print(answer)
+
+    answer = solution217.containsDuplicate([1,1,1,3,3,4,3,2,4,2])
     print(answer)
 
 
