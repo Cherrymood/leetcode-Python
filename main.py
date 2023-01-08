@@ -36,10 +36,10 @@ import solution1309
 import solution242
 import solution217
 import solution136
-import solution404
-import solution104
+#import solution404
+#import solution104
 import solution2469
-
+import solution2235
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -424,25 +424,32 @@ if __name__ == '__main__':
     answer = solution136.singleNumber([1])
     print(answer)
 
-    solution404 = solution404.Solution()
-    answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
-    print(answer)
+    #(solution404 = solution404.Solution()
+    #answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
+    #print(answer)
 
-    answer = solution404.sumOfLeftLeaves([1])
-    print(answer)
+    #answer = solution404.sumOfLeftLeaves([1])
+    #print(answer)
 
-    solution104 = solution104.Solution()
-    answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
-    print(answer)
+    #solution104 = solution104.Solution()
+    #answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
+    #print(answer)
 
-    answer = solution404.sumOfLeftLeaves([1,-1,2])
-    print(answer)
+    #answer = solution404.sumOfLeftLeaves([1,-1,2])
+    #print(answer))
 
     solution2469 = solution2469.Solution()
     answer = solution2469.convertTemperature(36.50)
     print(answer)
 
     answer = solution2469.convertTemperature(122.11)
+    print(answer)
+
+    solution2235 = solution2235.Solution()
+    answer = solution2235.sum(12, 5)
+    print(answer)
+
+    answer = solution2235.sum(-10, 4)
     print(answer)
 
 
