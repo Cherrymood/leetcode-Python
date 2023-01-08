@@ -36,6 +36,7 @@ import solution1309
 import solution242
 import solution217
 import solution136
+import solution404
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -418,6 +419,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution136.singleNumber([1])
+    print(answer)
+
+    solution404 = solution404.Solution()
+    answer = solution404.sumOfLeftLeaves([3,9,20,null,null,15,7])
+    print(answer)
+
+    answer = solution404.sumOfLeftLeaves([1])
     print(answer)
 
 
