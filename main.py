@@ -38,6 +38,7 @@ import solution217
 import solution136
 import solution404
 import solution104
+import solution2469
 
 
 if __name__ == '__main__':
@@ -424,17 +425,24 @@ if __name__ == '__main__':
     print(answer)
 
     solution404 = solution404.Solution()
-    answer = solution404.sumOfLeftLeaves([3,9,20,null,null,15,7])
+    answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
     print(answer)
 
     answer = solution404.sumOfLeftLeaves([1])
     print(answer)
 
     solution104 = solution104.Solution()
-    answer = solution104.maxDepth([3,9,20,null,null,15,7])
+    answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
     print(answer)
 
-    answer = solution404.sumOfLeftLeaves([1,null,2])
+    answer = solution404.sumOfLeftLeaves([1,-1,2])
+    print(answer)
+
+    solution2469 = solution2469.Solution()
+    answer = solution2469.convertTemperature(36.50)
+    print(answer)
+
+    answer = solution2469.convertTemperature(122.11)
     print(answer)
 
 
