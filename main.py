@@ -37,6 +37,8 @@ import solution242
 import solution217
 import solution136
 import solution404
+import solution104
+
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -426,6 +428,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution404.sumOfLeftLeaves([1])
+    print(answer)
+
+    solution104 = solution104.Solution()
+    answer = solution104.maxDepth([3,9,20,null,null,15,7])
+    print(answer)
+
+    answer = solution404.sumOfLeftLeaves([1,null,2])
     print(answer)
 
 
