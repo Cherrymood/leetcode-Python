@@ -40,6 +40,7 @@ import solution136
 #import solution104
 import solution2469
 import solution2235
+import solution2418
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -450,6 +451,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2235.sum(-10, 4)
+    print(answer)
+
+    solution2418 = solution2418.Solution()
+    answer = solution2418.sortPeople(["Mary", "John", "Emma"], [180, 165, 170])
+    print(answer)
+
+    answer = solution2418.sortPeople(["Alice", "Bob", "Bob"], [155, 185, 150])
     print(answer)
 
 

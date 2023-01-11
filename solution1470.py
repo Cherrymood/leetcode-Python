@@ -8,4 +8,3 @@ class Solution:
 
         for index in range(len(nums)):
             answer.append(nums[index])
-                
