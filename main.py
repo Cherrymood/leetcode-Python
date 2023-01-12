@@ -41,6 +41,8 @@ import solution136
 import solution2469
 import solution2235
 import solution2418
+import solution1365
+import solutiopn2011
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -458,6 +460,26 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2418.sortPeople(["Alice", "Bob", "Bob"], [155, 185, 150])
+    print(answer)
+
+    solution1365 = solution1365.Solution()
+    answer = solution1365.smallerNumbersThanCurrent([8,1,2,2,3])
+    print(answer)
+
+    answer = solution1365.smallerNumbersThanCurrent([6,5,4,8])
+    print(answer)
+
+    answer = solution1365.smallerNumbersThanCurrent([7,7,7,7])
+    print(answer)
+
+    solutiopn2011 = solutiopn2011.Solution()
+    answer = solutiopn2011.finalValueAfterOperations(["--X","X++","X++"])
+    print(answer)
+
+    answer = solutiopn2011.finalValueAfterOperations(["++X","++X","X++"])
+    print(answer)
+
+    answer = solutiopn2011.finalValueAfterOperations(["X++","++X","--X","X--"])
     print(answer)
 
 
