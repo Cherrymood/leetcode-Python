@@ -31,19 +31,19 @@ import solution1768
 import solution1678
 import solution389
 import solution709
-#import solution819
+# import solution819
 import solution1309
 import solution242
 import solution217
 import solution136
-#import solution404
-#import solution104
+# import solution404
+# import solution104
 import solution2469
 import solution2235
 import solution2418
 import solution1365
 import solutiopn2011
-#mport solution2236
+import solution2236
 import solution1470
 
 if __name__ == '__main__':
@@ -163,14 +163,14 @@ if __name__ == '__main__':
     answer = Solution1523.countOdds(5, 9)
     print(answer)
 
-    answer = Solution1523.countOdds(0,15)
+    answer = Solution1523.countOdds(0, 15)
     print(answer)
 
     solution1491 = solution1491.Solution()
-    answer = solution1491.average([4000,3000,1000,2000])
+    answer = solution1491.average([4000, 3000, 1000, 2000])
     print(answer)
 
-    answer = solution1491.average([4000,4700,7000])
+    answer = solution1491.average([4000, 4700, 7000])
     print(answer)
 
     solution1581 = solution1581.Solution()
@@ -194,10 +194,10 @@ if __name__ == '__main__':
     print(answer)
 
     solution66 = solution66.Solution()
-    answer = solution66.plusOne([1,2,3])
+    answer = solution66.plusOne([1, 2, 3])
     print(answer)
 
-    answer = solution66.plusOne([4,3,2,2])
+    answer = solution66.plusOne([4, 3, 2, 2])
     print(answer)
 
     answer = solution66.plusOne([9])
@@ -222,10 +222,10 @@ if __name__ == '__main__':
     answer = solution976.largestPerimeter([2, 1, 2])
     print(answer)
 
-    answer = solution976.largestPerimeter([1,2,1,10])
+    answer = solution976.largestPerimeter([1, 2, 1, 10])
     print(answer)
 
-    answer = solution976.largestPerimeter([3,6,2,3])
+    answer = solution976.largestPerimeter([3, 6, 2, 3])
     print(answer)
 
     solution1790 = solution1790.Solution()
@@ -254,7 +254,8 @@ if __name__ == '__main__':
     answer = solution1502.canMakeArithmeticProgression([1, 2, 4])
     print(answer)
 
-    answer = solution1502.canMakeArithmeticProgression([13, 12, -12, 9, 9, 16, 7, -10, -20, 0, 18, -1, -20, -10, -8, 15, 15, 16, 2, 15])
+    answer = solution1502.canMakeArithmeticProgression(
+        [13, 12, -12, 9, 9, 16, 7, -10, -20, 0, 18, -1, -20, -10, -8, 15, 15, 16, 2, 15])
     print(answer)
 
     solution1822 = solution1822.Solution()
@@ -285,27 +286,27 @@ if __name__ == '__main__':
     print(answer)
 
     solution1588 = solution1588.Solution()
-    answer = solution1588.sumOddLengthSubarrays([1,4,2,5,3])
+    answer = solution1588.sumOddLengthSubarrays([1, 4, 2, 5, 3])
     print(answer)
 
     answer = solution1588.sumOddLengthSubarrays([1, 2])
     print(answer)
 
-    answer = solution1588.sumOddLengthSubarrays([10,11,12])
+    answer = solution1588.sumOddLengthSubarrays([10, 11, 12])
     print(answer)
 
     solution1672 = solution1672.Solution()
-    answer = solution1672.maximumWealth([[1,2,3],[3,2,1]])
+    answer = solution1672.maximumWealth([[1, 2, 3], [3, 2, 1]])
     print(answer)
 
-    answer = solution1672.maximumWealth([[1,5],[7,3],[3,5]])
+    answer = solution1672.maximumWealth([[1, 5], [7, 3], [3, 5]])
     print(answer)
 
-    answer = solution1672.maximumWealth([[2,8,7],[7,1,3],[1,9,5]])
+    answer = solution1672.maximumWealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]])
     print(answer)
 
     solution283 = solution283.Solution()
-    answer = solution283.moveZeroes([0,1,0,3,12])
+    answer = solution283.moveZeroes([0, 1, 0, 3, 12])
     print(answer)
 
     answer = solution283.moveZeroes([0])
@@ -325,27 +326,27 @@ if __name__ == '__main__':
     print(answer)
 
     solution1232 = solution1232.Solution()
-    answer = solution1232.checkStraightLine([[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]])
+    answer = solution1232.checkStraightLine([[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]])
     print(answer)
 
-    answer = solution1232.checkStraightLine([[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]])
+    answer = solution1232.checkStraightLine([[1, 1], [2, 2], [3, 4], [4, 5], [5, 6], [7, 7]])
     print(answer)
 
     solution1572 = solution1572.Solution()
-    answer = solution1572.diagonalSum([[1,2,3],[4,5,6],[7,8,9]])
+    answer = solution1572.diagonalSum([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     print(answer)
 
-    answer = solution1572.diagonalSum([[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]])
+    answer = solution1572.diagonalSum([[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]])
     print(answer)
 
     answer = solution1572.diagonalSum([[5]])
     print(answer)
 
     solution566 = solution566.Solution()
-    answer = solution566.matrixReshape([[1,2],[3,4]], 1, 4)
+    answer = solution566.matrixReshape([[1, 2], [3, 4]], 1, 4)
     print(answer)
 
-    answer = solution566.matrixReshape([[1,2],[3,4]], 2, 4)
+    answer = solution566.matrixReshape([[1, 2], [3, 4]], 2, 4)
     print(answer)
 
     answer = solution566.matrixReshape([[5]], 2, 9)
@@ -375,7 +376,9 @@ if __name__ == '__main__':
     answer = solution389.findTheDifference("", "y")
     print(answer)
 
-    answer = solution389.findTheDifference("ymbgaraibkfmvocpizdydugvalagaivdbfsfbepeyccqfepzvtpyxtbadkhmwmoswrcxnargtlswqemafandgkmydtimuzvjwxvlfwlhvkrgcsithaqlcvrihrwqkpjdhgfgreqoxzfvhjzojhghfwbvpfzectwwhexthbsndovxejsntmjihchaotbgcysfdaojkjldprwyrnischrgmtvjcorypvopfmegizfkvudubnejzfqffvgdoxohuinkyygbdzmshvyqyhsozwvlhevfepdvafgkqpkmcsikfyxczcovrmwqxxbnhfzcjjcpgzjjfateajnnvlbwhyppdleahgaypxidkpwmfqwqyofwdqgxhjaxvyrzupfwesmxbjszolgwqvfiozofncbohduqgiswuiyddmwlwubetyaummenkdfptjczxemryuotrrymrfdxtrebpbjtpnuhsbnovhectpjhfhahbqrfbyxggobsweefcwxpqsspyssrmdhuelkkvyjxswjwofngpwfxvknkjviiavorwyfzlnktmfwxkvwkrwdcxjfzikdyswsuxegmhtnxjraqrdchaauazfhtklxsksbhwgjphgbasfnlwqwukprgvihntsyymdrfovaszjywuqygpvjtvlsvvqbvzsmgweiayhlubnbsitvfxawhfmfiatxvqrcwjshvovxknnxnyyfexqycrlyksderlqarqhkxyaqwlwoqcribumrqjtelhwdvaiysgjlvksrfvjlcaiwrirtkkxbwgicyhvakxgdjwnwmubkiazdjkfmotglclqndqjxethoutvjchjbkoasnnfbgrnycucfpeovruguzumgmgddqwjgdvaujhyqsqtoexmnfuluaqbxoofvotvfoiexbnprrxptchmlctzgqtkivsilwgwgvpidpvasurraqfkcmxhdapjrlrnkbklwkrvoaziznlpor", "qhxepbshlrhoecdaodgpousbzfcqjxulatciapuftffahhlmxbufgjuxstfjvljybfxnenlacmjqoymvamphpxnolwijwcecgwbcjhgdybfffwoygikvoecdggplfohemfypxfsvdrseyhmvkoovxhdvoavsqqbrsqrkqhbtmgwaurgisloqjixfwfvwtszcxwktkwesaxsmhsvlitegrlzkvfqoiiwxbzskzoewbkxtphapavbyvhzvgrrfriddnsrftfowhdanvhjvurhljmpxvpddxmzfgwwpkjrfgqptrmumoemhfpojnxzwlrxkcafvbhlwrapubhveattfifsmiounhqusvhywnxhwrgamgnesxmzliyzisqrwvkiyderyotxhwspqrrkeczjysfujvovsfcfouykcqyjoobfdgnlswfzjmyucaxuaslzwfnetekymrwbvponiaojdqnbmboldvvitamntwnyaeppjaohwkrisrlrgwcjqqgxeqerjrbapfzurcwxhcwzugcgnirkkrxdthtbmdqgvqxilllrsbwjhwqszrjtzyetwubdrlyakzxcveufvhqugyawvkivwonvmrgnchkzdysngqdibhkyboyftxcvvjoggecjsajbuqkjjxfvynrjsnvtfvgpgveycxidhhfauvjovmnbqgoxsafknluyimkczykwdgvqwlvvgdmufxdypwnajkncoynqticfetcdafvtqszuwfmrdggifokwmkgzuxnhncmnsstffqpqbplypapctctfhqpihavligbrutxmmygiyaklqtakdidvnvrjfteazeqmbgklrgrorudayokxptswwkcircwuhcavhdparjfkjypkyxhbgwxbkvpvrtzjaetahmxevmkhdfyidhrdeejapfbafwmdqjqszwnwzgclitdhlnkaiyldwkwwzvhyorgbysyjbxsspnjdewjxbhpsvj")
+    answer = solution389.findTheDifference(
+        "ymbgaraibkfmvocpizdydugvalagaivdbfsfbepeyccqfepzvtpyxtbadkhmwmoswrcxnargtlswqemafandgkmydtimuzvjwxvlfwlhvkrgcsithaqlcvrihrwqkpjdhgfgreqoxzfvhjzojhghfwbvpfzectwwhexthbsndovxejsntmjihchaotbgcysfdaojkjldprwyrnischrgmtvjcorypvopfmegizfkvudubnejzfqffvgdoxohuinkyygbdzmshvyqyhsozwvlhevfepdvafgkqpkmcsikfyxczcovrmwqxxbnhfzcjjcpgzjjfateajnnvlbwhyppdleahgaypxidkpwmfqwqyofwdqgxhjaxvyrzupfwesmxbjszolgwqvfiozofncbohduqgiswuiyddmwlwubetyaummenkdfptjczxemryuotrrymrfdxtrebpbjtpnuhsbnovhectpjhfhahbqrfbyxggobsweefcwxpqsspyssrmdhuelkkvyjxswjwofngpwfxvknkjviiavorwyfzlnktmfwxkvwkrwdcxjfzikdyswsuxegmhtnxjraqrdchaauazfhtklxsksbhwgjphgbasfnlwqwukprgvihntsyymdrfovaszjywuqygpvjtvlsvvqbvzsmgweiayhlubnbsitvfxawhfmfiatxvqrcwjshvovxknnxnyyfexqycrlyksderlqarqhkxyaqwlwoqcribumrqjtelhwdvaiysgjlvksrfvjlcaiwrirtkkxbwgicyhvakxgdjwnwmubkiazdjkfmotglclqndqjxethoutvjchjbkoasnnfbgrnycucfpeovruguzumgmgddqwjgdvaujhyqsqtoexmnfuluaqbxoofvotvfoiexbnprrxptchmlctzgqtkivsilwgwgvpidpvasurraqfkcmxhdapjrlrnkbklwkrvoaziznlpor",
+        "qhxepbshlrhoecdaodgpousbzfcqjxulatciapuftffahhlmxbufgjuxstfjvljybfxnenlacmjqoymvamphpxnolwijwcecgwbcjhgdybfffwoygikvoecdggplfohemfypxfsvdrseyhmvkoovxhdvoavsqqbrsqrkqhbtmgwaurgisloqjixfwfvwtszcxwktkwesaxsmhsvlitegrlzkvfqoiiwxbzskzoewbkxtphapavbyvhzvgrrfriddnsrftfowhdanvhjvurhljmpxvpddxmzfgwwpkjrfgqptrmumoemhfpojnxzwlrxkcafvbhlwrapubhveattfifsmiounhqusvhywnxhwrgamgnesxmzliyzisqrwvkiyderyotxhwspqrrkeczjysfujvovsfcfouykcqyjoobfdgnlswfzjmyucaxuaslzwfnetekymrwbvponiaojdqnbmboldvvitamntwnyaeppjaohwkrisrlrgwcjqqgxeqerjrbapfzurcwxhcwzugcgnirkkrxdthtbmdqgvqxilllrsbwjhwqszrjtzyetwubdrlyakzxcveufvhqugyawvkivwonvmrgnchkzdysngqdibhkyboyftxcvvjoggecjsajbuqkjjxfvynrjsnvtfvgpgveycxidhhfauvjovmnbqgoxsafknluyimkczykwdgvqwlvvgdmufxdypwnajkncoynqticfetcdafvtqszuwfmrdggifokwmkgzuxnhncmnsstffqpqbplypapctctfhqpihavligbrutxmmygiyaklqtakdidvnvrjfteazeqmbgklrgrorudayokxptswwkcircwuhcavhdparjfkjypkyxhbgwxbkvpvrtzjaetahmxevmkhdfyidhrdeejapfbafwmdqjqszwnwzgclitdhlnkaiyldwkwwzvhyorgbysyjbxsspnjdewjxbhpsvj")
     print(answer)
 
     solution709 = solution709.Solution()
@@ -388,12 +391,12 @@ if __name__ == '__main__':
     answer = solution709.toLowerCase("LOVELY")
     print(answer)
 
-    #solution819 = solution819.Solution()
-    #answer = solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
-    #print(answer)
+    # solution819 = solution819.Solution()
+    # answer = solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
+    # print(answer)
 
-    #answer = solution819.mostCommonWord("a.", [])
-    #print(answer)
+    # answer = solution819.mostCommonWord("a.", [])
+    # print(answer)
 
     solution1309 = solution1309.Solution()
     answer = solution1309.freqAlphabets("10#11#12")
@@ -410,38 +413,38 @@ if __name__ == '__main__':
     print(answer)
 
     solution217 = solution217.Solution()
-    answer = solution217.containsDuplicate([1,2,3,1])
+    answer = solution217.containsDuplicate([1, 2, 3, 1])
     print(answer)
 
-    answer = solution217.containsDuplicate([1,2,3,4])
+    answer = solution217.containsDuplicate([1, 2, 3, 4])
     print(answer)
 
-    answer = solution217.containsDuplicate([1,1,1,3,3,4,3,2,4,2])
+    answer = solution217.containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
     print(answer)
 
     solution136 = solution136.Solution()
-    answer = solution136.singleNumber([2,2,1])
+    answer = solution136.singleNumber([2, 2, 1])
     print(answer)
 
-    answer = solution136.singleNumber([4,1,2,1,2])
+    answer = solution136.singleNumber([4, 1, 2, 1, 2])
     print(answer)
 
     answer = solution136.singleNumber([1])
     print(answer)
 
-    #(solution404 = solution404.Solution()
-    #answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
-    #print(answer)
+    # (solution404 = solution404.Solution()
+    # answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
+    # print(answer)
 
-    #answer = solution404.sumOfLeftLeaves([1])
-    #print(answer)
+    # answer = solution404.sumOfLeftLeaves([1])
+    # print(answer)
 
-    #solution104 = solution104.Solution()
-    #answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
-    #print(answer)
+    # solution104 = solution104.Solution()
+    # answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
+    # print(answer)
 
-    #answer = solution404.sumOfLeftLeaves([1,-1,2])
-    #print(answer))
+    # answer = solution404.sumOfLeftLeaves([1,-1,2])
+    # print(answer))
 
     solution2469 = solution2469.Solution()
     answer = solution2469.convertTemperature(36.50)
@@ -465,52 +468,50 @@ if __name__ == '__main__':
     print(answer)
 
     solution1365 = solution1365.Solution()
-    answer = solution1365.smallerNumbersThanCurrent([8,1,2,2,3])
+    answer = solution1365.smallerNumbersThanCurrent([8, 1, 2, 2, 3])
     print(answer)
 
-    answer = solution1365.smallerNumbersThanCurrent([6,5,4,8])
+    answer = solution1365.smallerNumbersThanCurrent([6, 5, 4, 8])
     print(answer)
 
-    answer = solution1365.smallerNumbersThanCurrent([7,7,7,7])
+    answer = solution1365.smallerNumbersThanCurrent([7, 7, 7, 7])
     print(answer)
 
     solutiopn2011 = solutiopn2011.Solution()
-    answer = solutiopn2011.finalValueAfterOperations(["--X","X++","X++"])
+    answer = solutiopn2011.finalValueAfterOperations(["--X", "X++", "X++"])
     print(answer)
 
-    answer = solutiopn2011.finalValueAfterOperations(["++X","++X","X++"])
+    answer = solutiopn2011.finalValueAfterOperations(["++X", "++X", "X++"])
     print(answer)
 
-    answer = solutiopn2011.finalValueAfterOperations(["X++","++X","--X","X--"])
+    answer = solutiopn2011.finalValueAfterOperations(["X++", "++X", "--X", "X--"])
     print(answer)
 
     solution1470 = solution1470.Solution()
-    answer = solution1470.shuffle([2,5,1,3,4,7], 3)
+    answer = solution1470.shuffle([2, 5, 1, 3, 4, 7], 3)
     print(answer)
 
-    answer = solution1470.shuffle([1,2,3,4,4,3,2,1],4)
+    answer = solution1470.shuffle([1, 2, 3, 4, 4, 3, 2, 1], 4)
     print(answer)
 
-    answer = solution1470.shuffle([1,1,2,2],2)
+    answer = solution1470.shuffle([1, 1, 2, 2], 2)
     print(answer)
 
+    # [Required] Differ from solution2236 to avoid mess in 503-505
+    solution2236ins = solution2236.Solution()
 
-"""
-#    solution2236 = solution2236.Solution()
-    answer = solution2236.checkTree([10,4,6])
+    node = solution2236.TreeNode(val=10)
+    node.left = solution2236.TreeNode(val=4)
+    node.right = solution2236.TreeNode(val=6)
+
+    answer = solution2236ins.checkTree(node)
     print(answer)
 
-    answer = solution2236.checkTree([5,3,1])
+    node = solution2236.TreeNode(val=5)
+    node.left = solution2236.TreeNode(val=3)
+    node.right = solution2236.TreeNode(val=1)
+
+    answer = solution2236ins.checkTree(node)
     print(answer)
-    
-"""
-
-
-
-
-
-
-
-
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
