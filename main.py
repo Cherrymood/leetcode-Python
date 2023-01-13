@@ -43,6 +43,8 @@ import solution2235
 import solution2418
 import solution1365
 import solutiopn2011
+#mport solution2236
+import solution1470
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -482,7 +484,26 @@ if __name__ == '__main__':
     answer = solutiopn2011.finalValueAfterOperations(["X++","++X","--X","X--"])
     print(answer)
 
+    solution1470 = solution1470.Solution()
+    answer = solution1470.shuffle([2,5,1,3,4,7], 3)
+    print(answer)
 
+    answer = solution1470.shuffle([1,2,3,4,4,3,2,1],4)
+    print(answer)
+
+    answer = solution1470.shuffle([1,1,2,2],2)
+    print(answer)
+
+
+"""
+#    solution2236 = solution2236.Solution()
+    answer = solution2236.checkTree([10,4,6])
+    print(answer)
+
+    answer = solution2236.checkTree([5,3,1])
+    print(answer)
+    
+"""
 
 
 
