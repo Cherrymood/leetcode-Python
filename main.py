@@ -45,6 +45,7 @@ import solution1365
 import solutiopn2011
 import solution2236
 import solution1470
+import solution2114
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -513,5 +514,25 @@ if __name__ == '__main__':
 
     answer = solution2236ins.checkTree(node)
     print(answer)
+
+    solution2114 = solution2114.Solution()
+    answer = solution2114.mostWordsFound(
+        ["w jrpihe zsyqn l dxchifbxlasaehj", "nmmfrwyl jscqyxk a xfibiooix xolyqfdspkliyejsnksfewbjom",
+         "xnleojowaxwpyogyrayfgyuzhgtdzrsyococuqexggigtberizdzlyrdsfvryiynhg",
+         "krpwiazoulcixkkeyogizvicdkbrsiiuhizhkxdpssynfzuigvcbovm",
+         "rgmz rgztiup wqnvbucfqcyjivvoeedyxvjsmtqwpqpxmzdupfyfeewxegrlbjtsjkusyektigr",
+         "o lgsbechr lqcgfiat pkqdutzrq iveyv iqzgvyddyoqqmqerbmkxlbtmdtkinlk",
+         "hrvh efqvjilibdqxjlpmanmogiossjyxepotezo", "qstd zui nbbohtuk", "qsdrerdzjvhxjqchvuewevyzlkyydpeeblpc"])
+    print(answer)
+
+    answer = solution2114.mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"])
+    print(answer)
+
+    answer = solution2114.mostWordsFound(["please wait", "continue to fight", "continue to win"])
+    print(answer)
+
+    answer = solution2114.mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"])
+    print(answer)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
