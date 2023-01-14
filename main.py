@@ -47,6 +47,7 @@ import solution2236
 import solution1470
 import solution2114
 import solution1528
+import solution344
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -540,6 +541,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1528.restoreString( "abc", [0,1,2])
+    print(answer)
+
+    solution344 = solution344.Solution()
+    answer = solution344.reverseString(["h","e","l","l","o"])
+    print(answer)
+
+    answer = solution1528.restoreString(["H","a","n","n","a","h"])
     print(answer)
 
 
