@@ -46,6 +46,7 @@ import solutiopn2011
 import solution2236
 import solution1470
 import solution2114
+import solution1528
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -532,6 +533,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2114.mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"])
+    print(answer)
+
+    solution1528 = solution1528.Solution()
+    answer = solution1528.restoreString("codeleet", [4,5,6,7,0,2,1,3])
+    print(answer)
+
+    answer = solution1528.restoreString( "abc", [0,1,2])
     print(answer)
 
 
