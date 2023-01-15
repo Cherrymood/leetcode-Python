@@ -48,6 +48,7 @@ import solution1470
 import solution2114
 import solution1528
 import solution344
+import solution557
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -547,7 +548,14 @@ if __name__ == '__main__':
     answer = solution344.reverseString(["h","e","l","l","o"])
     print(answer)
 
-    answer = solution1528.restoreString(["H","a","n","n","a","h"])
+    answer = solution344.reverseString(["H","a","n","n","a","h"])
+    print(answer)
+
+    solution557 = solution557.Solution()
+    answer = solution557.reverseWords("Let's take LeetCode contest")
+    print(answer)
+
+    answer = solution557.reverseWords("God Ding")
     print(answer)
 
 
