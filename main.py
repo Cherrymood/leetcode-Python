@@ -49,6 +49,7 @@ import solution2114
 import solution1528
 import solution344
 import solution557
+import solution2325
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -556,6 +557,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution557.reverseWords("God Ding")
+    print(answer)
+
+    solution2325 = solution2325.Solution()
+    answer = solution2325.decodeMessage("the quick brown fox jumps over the lazy dog","vkbs bs t suepuv")
+    print(answer)
+
+    answer = solution2325.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo","zwx hnfx lqantp mnoeius ycgk vcnjrdb")
     print(answer)
 
 
