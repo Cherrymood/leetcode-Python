@@ -54,6 +54,7 @@ import solution1920
 import solution1929
 import solution2535
 import solution2413
+import solution1512
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -596,6 +597,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2413.smallestEvenMultiple(6)
+    print(answer)
+
+    solution1512 = solution1512.Solution()
+    answer = solution1512.numIdenticalPairs([1,2,3,1,1,3])
+    print(answer)
+
+    answer = solution1512.numIdenticalPairs([1,1,1,1])
     print(answer)
 
 
