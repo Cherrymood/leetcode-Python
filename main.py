@@ -51,6 +51,7 @@ import solution344
 import solution557
 import solution2325
 import solution1920
+import solution1929
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -572,6 +573,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1920.buildArray([5,0,1,2,3,4])
+    print(answer)
+
+    solution1929 = solution1929.Solution()
+    answer = solution1929.getConcatenation([1,2,1])
+    print(answer)
+
+    answer = solution1929.getConcatenation([5,0,1,2,3,4])
     print(answer)
 
 
