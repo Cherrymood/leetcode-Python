@@ -53,6 +53,7 @@ import solution2325
 import solution1920
 import solution1929
 import solution2535
+import solution2413
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -588,6 +589,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2535.differenceOfSum([1,2,3,4])
+    print(answer)
+
+    solution2413 = solution2413.Solution()
+    answer = solution2413.smallestEvenMultiple(5)
+    print(answer)
+
+    answer = solution2413.smallestEvenMultiple(6)
     print(answer)
 
 
