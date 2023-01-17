@@ -52,6 +52,7 @@ import solution557
 import solution2325
 import solution1920
 import solution1929
+import solution2535
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -580,6 +581,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1929.getConcatenation([5,0,1,2,3,4])
+    print(answer)
+
+    solution2535 = solution2535.Solution()
+    answer = solution2535.differenceOfSum([1909,15,609,3])
+    print(answer)
+
+    answer = solution2535.differenceOfSum([1,2,3,4])
     print(answer)
 
 
