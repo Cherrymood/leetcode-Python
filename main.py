@@ -55,6 +55,7 @@ import solution1929
 import solution2535
 import solution2413
 import solution1512
+import solution1431
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -605,6 +606,17 @@ if __name__ == '__main__':
 
     answer = solution1512.numIdenticalPairs([1,1,1,1])
     print(answer)
+
+    solution1431 = solution1431.Solution()
+    answer = solution1431.kidsWithCandies([2, 3, 5, 1,3 ], 3)
+    print(answer)
+
+    answer = solution1431.kidsWithCandies([4, 2, 1, 1, 2], 1)
+    print(answer)
+
+    answer = solution1431.kidsWithCandies([12, 1, 12], 10)
+    print(answer)
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
