@@ -56,6 +56,7 @@ import solution2535
 import solution2413
 import solution1512
 import solution1431
+import solution1342
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -615,6 +616,16 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1431.kidsWithCandies([12, 1, 12], 10)
+    print(answer)
+
+    solution1342 = solution1342.Solution()
+    answer = solution1342.numberOfSteps(14)
+    print(answer)
+
+    answer = solution1342.numberOfSteps(8)
+    print(answer)
+
+    answer = solution1342.numberOfSteps(123)
     print(answer)
 
 
