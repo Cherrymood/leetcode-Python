@@ -57,6 +57,7 @@ import solution2413
 import solution1512
 import solution1431
 import solution1342
+import solution1839
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -626,6 +627,13 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution1342.numberOfSteps(123)
+    print(answer)
+
+    solution1839 = solution1839.Solution()
+    answer = solution1839.sortSentence("is2 sentence4 This1 a3")
+    print(answer)
+
+    solution1839 = solution1839("Myself2 Me1 I4 and3")
     print(answer)
 
 
