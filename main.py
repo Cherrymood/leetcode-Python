@@ -1,3 +1,4 @@
+import solution2160
 import solution1480
 import solution1
 import solution9
@@ -633,7 +634,14 @@ if __name__ == '__main__':
     answer = solution1839.sortSentence("is2 sentence4 This1 a3")
     print(answer)
 
-    solution1839 = solution1839("Myself2 Me1 I4 and3")
+    answer = solution1839.sortSentence("Myself2 Me1 I4 and3")
+    print(answer)
+
+    solution2160 = solution2160.Solution()
+    answer = solution2160.minimumSum(2932)
+    print(answer)
+
+    answer = solution2160.minimumSum(4009)
     print(answer)
 
 
