@@ -62,6 +62,7 @@ import solution1839
 import solution938
 import solution144
 import solution145
+import solution83
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -685,14 +686,22 @@ if __name__ == '__main__':
     node.left = solution145.TreeNode(val=4)
     node.right = solution145.TreeNode(val=6)
 
-    answer = solution145ins.preorderTraversal(node)
+    answer = solution145ins.postorderTraversal(node)
     print(answer)
 
     node = solution145.TreeNode(val=5)
     node.left = solution145.TreeNode(val=3)
     node.right = solution145.TreeNode(val=1)
 
-    answer = solution145ins.preorderTraversal(node)
+    answer = solution145ins.postorderTraversal(node)
+    print(answer)
+
+    solution83ins = solution83.Solution()
+
+    node = solution83.ListNode(val=10)
+    node.next = solution83.ListNode(val=4)
+
+    answer = solution83ins.deleteDuplicates(node)
     print(answer)
 
 
