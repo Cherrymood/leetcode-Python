@@ -59,6 +59,7 @@ import solution1512
 import solution1431
 import solution1342
 import solution1839
+import solution938
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -642,6 +643,22 @@ if __name__ == '__main__':
     print(answer)
 
     answer = solution2160.minimumSum(4009)
+    print(answer)
+
+    solution938ins = solution938.Solution()
+
+    node = solution938.TreeNode(val=10)
+    node.left = solution938.TreeNode(val=4)
+    node.right = solution938.TreeNode(val=6)
+
+    answer = solution938ins.checkTree(node)
+    print(answer)
+
+    node = solution938.TreeNode(val=5)
+    node.left = solution938.TreeNode(val=3)
+    node.right = solution938.TreeNode(val=1)
+
+    answer = solution938ins.checkTree(node)
     print(answer)
 
 
