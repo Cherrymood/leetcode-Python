@@ -63,6 +63,7 @@ import solution938
 import solution144
 import solution145
 import solution83
+import solution2529
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -704,6 +705,15 @@ if __name__ == '__main__':
     answer = solution83ins.deleteDuplicates(node)
     print(answer)
 
+    solution2529 = solution2529.Solution()
+    answer = solution2529.maximumCount([-2,-1,-1,1,2,3])
+    print(answer)
+
+    answer = solution2529.maximumCount([-3,-2,-1,0,0,1,2])
+    print(answer)
+
+    answer = solution2529.maximumCount([5,20,66,1314])
+    print(answer)
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
