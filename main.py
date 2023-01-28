@@ -64,6 +64,7 @@ import solution144
 import solution145
 import solution83
 import solution2529
+import solution88
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -714,6 +715,14 @@ if __name__ == '__main__':
 
     answer = solution2529.maximumCount([5,20,66,1314])
     print(answer)
+
+    solution88 = solution88.Solution()
+    answer = solution88.merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3)
+    print(answer)
+
+    answer = solution88.merge([1], 1, [], 0)
+    print(answer)
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
