@@ -68,6 +68,7 @@ import solution88
 import solution1773
 import solution258
 import solution100
+import solution1108
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -752,6 +753,13 @@ if __name__ == '__main__':
     node.right = solution100.TreeNode(val=3)
 
     answer = solution145ins.postorderTraversal(node)
+    print(answer)
+
+    solution1108 = solution1108.Solution()
+    answer = solution1108.defangIPaddr("1.1.1.1")
+    print(answer)
+
+    answer = solution1108.defangIPaddr("255.100.50.0")
     print(answer)
 
 
