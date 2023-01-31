@@ -66,6 +66,7 @@ import solution83
 import solution2529
 import solution88
 import solution1773
+import solution258
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -730,6 +731,14 @@ if __name__ == '__main__':
 
     answer = solution1773.countMatches([["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]], "type", "phone")
     print(answer)
+
+    solution258 = solution258.Solution()
+    answer = solution258.addDigits(38)
+    print(answer)
+
+    answer = solution258.addDigits(0)
+    print(answer)
+
 
 
 
