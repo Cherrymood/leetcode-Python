@@ -32,13 +32,13 @@ import solution1768
 import solution1678
 import solution389
 import solution709
-# import solution819
+import solution819
 import solution1309
 import solution242
 import solution217
 import solution136
-# import solution404
-# import solution104
+import solution404
+import solution104
 import solution2469
 import solution2235
 import solution2418
@@ -67,6 +67,7 @@ import solution2529
 import solution88
 import solution1773
 import solution258
+import solution100
 
 if __name__ == '__main__':
     solution1480 = solution1480.Solution()
@@ -222,9 +223,7 @@ if __name__ == '__main__':
     answer = solution66.plusOne([4, 3, 2, 2])
     print(answer)
 
-    answer = solution66.plusOne([9])
-
-    answer = solution66.plusOne([9, 9, 9, 9])
+    answer = solution66.plusOne([9, 9, 9 ])
     print(answer)
 
     solution231 = solution231.Solution()
@@ -413,12 +412,12 @@ if __name__ == '__main__':
     answer = solution709.toLowerCase("LOVELY")
     print(answer)
 
-    # solution819 = solution819.Solution()
-    # answer = solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
-    # print(answer)
+    solution819 = solution819.Solution()
+    answer = solution819.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
+    print(answer)
 
-    # answer = solution819.mostCommonWord("a.", [])
-    # print(answer)
+    answer = solution819.mostCommonWord("a.", [])
+    print(answer)
 
     solution1309 = solution1309.Solution()
     answer = solution1309.freqAlphabets("10#11#12")
@@ -454,19 +453,26 @@ if __name__ == '__main__':
     answer = solution136.singleNumber([1])
     print(answer)
 
-    # (solution404 = solution404.Solution()
-    # answer = solution404.sumOfLeftLeaves([3,9,20,-1,-1,15,7])
-    # print(answer)
+    solution404ins = solution404.Solution()
 
-    # answer = solution404.sumOfLeftLeaves([1])
-    # print(answer)
+    node = solution938.TreeNode(val=3)
+    node.left = solution938.TreeNode(val=9)
+    node.right = solution938.TreeNode(val=20)
+    node.right.left = solution938.TreeNode(val=15)
+    node.right.left = solution938.TreeNode(val=7)
+    answer = solution404ins.sumOfLeftLeaves([1])
+    print(answer)
 
-    # solution104 = solution104.Solution()
-    # answer = solution104.maxDepth([3,9,20,-1,-1,15,7])
-    # print(answer)
+    solution104ins = solution104.Solution()
 
-    # answer = solution404.sumOfLeftLeaves([1,-1,2])
-    # print(answer))
+    node = solution938.TreeNode(val=3)
+    node.left = solution938.TreeNode(val=9)
+    node.right = solution938.TreeNode(val=20)
+    node.right.left = solution938.TreeNode(val=15)
+    node.right.left = solution938.TreeNode(val=7)
+    answer = solution104ins.maxDepth([1])
+    print(answer)
+
 
     solution2469 = solution2469.Solution()
     answer = solution2469.convertTemperature(36.50)
@@ -738,6 +744,17 @@ if __name__ == '__main__':
 
     answer = solution258.addDigits(0)
     print(answer)
+
+    solution100ins = solution100.Solution()
+
+    node = solution100.TreeNode(val=1)
+    node.left = solution100.TreeNode(val=2)
+    node.right = solution100.TreeNode(val=3)
+
+    answer = solution145ins.postorderTraversal(node)
+    print(answer)
+
+
 
 
 
