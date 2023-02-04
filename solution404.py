@@ -5,28 +5,24 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def sumOfLeftLeaves(self, root) -> int:
+    def accumulate_left_leaves(self, root: Optional[TreeNode], is_left: bool) -> list[int]:
+        if not root:
+            return 0
 
-        result = 0  # For summation of the left leaves values
+        is_leaf: bool = False
+        if not root.left and not root.right:
+            is_leaf = True
 
-        stack = [(root, False)]  # Using stack with tuple (Node, Boolean Value)
+        if is_leaf and is_left:
+            return root.val
+        elif is_leaf and not is_left:
+            return 0
 
-        # If the stack is not empty
-        while stack:
+        return self.accumulate_left_leaves(root.left, True) + self.accumulate_left_leaves(root.right, False)
 
-            # Get the topmost element from the stack (LIFO)
-            currentNode, isLeft = stack.pop()
 
-            if not currentNode:  # If there's no node
-                continue
-
-            if not currentNode.left and not currentNode.right:  # If the current Node is a leaf i.e. current Node's left and right childs are null.
-                if isLeft:  # If the current Node is leaf then check if it's a left leaf or not since we only want left leaf and not the right left.
-                    result += currentNode.val  # If it's a left leaft then add it to the result
-
-                # Otherwise we're yet to reach the leaf node so go ahead and the left and right child of the current node in the stack.
-            else:
-                stack.append((currentNode.left, True))  # If we encountered a left leaf node then mark it as True
-                stack.append((currentNode.right, False))
-
-        return result
+    def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
+        result: list[int] = []
+        result.append(self.accumulate_left_leaves(root, False))
+        return sum(result)
+Console
