@@ -69,8 +69,16 @@ import solution1773
 import solution258
 import solution100
 import solution1108
+import solution771
 
 if __name__ == '__main__':
+    solution771 = solution771.Solution()
+    answer = solution771.numJewelsInStones("aA", "aAAbbbb")
+    print(answer)
+
+    answer = solution771.numJewelsInStones("z", "ZZ")
+    print(answer)
+
     solution1480 = solution1480.Solution()
     answer = solution1480.runningSum([1, 2, 3, 4])
     print(answer)
