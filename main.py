@@ -70,8 +70,16 @@ import solution258
 import solution100
 import solution1108
 import solution771
+import solution2520
 
 if __name__ == '__main__':
+    solution2520 = solution2520.Solution()
+    answer = solution2520.countDigits(121)
+    print(answer)
+
+    answer = solution2520.countDigits(33445)
+    print(answer)
+
     solution771 = solution771.Solution()
     answer = solution771.numJewelsInStones("aA", "aAAbbbb")
     print(answer)
