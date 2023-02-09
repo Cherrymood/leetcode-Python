@@ -71,8 +71,20 @@ import solution100
 import solution1108
 import solution771
 import solution2520
+import solution1662
 
 if __name__ == '__main__':
+
+    solution1662 = solution1662.Solution()
+    answer = solution1662.arrayStringsAreEqual(["ab", "c"], ["a", "bc"])
+    print(answer)
+
+    answer = solution1662.arrayStringsAreEqual(["a", "cb"], ["ab", "c"])
+    print(answer)
+
+    answer = solution1662.arrayStringsAreEqual(["abc", "d", "defg"], ["abcddefg"])
+    print(answer)
+
     solution2520 = solution2520.Solution()
     answer = solution2520.countDigits(121)
     print(answer)
