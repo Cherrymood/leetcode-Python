@@ -72,8 +72,16 @@ import solution1108
 import solution771
 import solution2520
 import solution1662
+import solution1359
 
 if __name__ == '__main__':
+
+    solution1359 = solution1359.Solution()
+    answer = solution1359.sortByBits([0,1,2,3,4,5,6,7,8])
+    print(answer)
+
+    answer = solution1359.sortByBits([1024,512,256,128,64,32,16,8,4,2,1])
+    print(answer)
 
     solution1662 = solution1662.Solution()
     answer = solution1662.arrayStringsAreEqual(["ab", "c"], ["a", "bc"])
