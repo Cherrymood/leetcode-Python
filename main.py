@@ -74,8 +74,16 @@ import solution771
 import solution2520
 import solution1662
 import solution1359
+import solution28
 
 if __name__ == '__main__':
+
+    solution28 = solution28.Solution()
+    answer = solution28.strStr("sadbutsad", "sad")
+    print(answer)
+
+    answer = solution28.strStr("leetcode", "leeto")
+    print(answer)
 
     solution896 = solution896.Solution()
     answer = solution896.isMonotonic([1,2,2,3])
