@@ -1,3 +1,4 @@
+import solution896
 import solution2160
 import solution1480
 import solution1
@@ -75,6 +76,13 @@ import solution1662
 import solution1359
 
 if __name__ == '__main__':
+
+    solution896 = solution896.Solution()
+    answer = solution896.isMonotonic([1,2,2,3])
+    print(answer)
+
+    answer = solution896.isMonotonic([6,5,4,4])
+    print(answer)
 
     solution1359 = solution1359.Solution()
     answer = solution1359.sortByBits([0,1,2,3,4,5,6,7,8])
