@@ -75,8 +75,16 @@ import solution2520
 import solution1662
 import solution1359
 import solution28
+import solution150
 
 if __name__ == '__main__':
+
+    solution150 = solution150.Solution()
+    answer = solution150.evalRPN(["2","1","+","3","*"])
+    print(answer)
+
+    answer = solution150.evalRPN(["4","13","5","/","+"])
+    print(answer)
 
     solution28 = solution28.Solution()
     answer = solution28.strStr("sadbutsad", "sad")
