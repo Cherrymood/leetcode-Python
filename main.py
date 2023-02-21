@@ -76,8 +76,16 @@ import solution1662
 import solution1359
 import solution28
 import solution150
+import solution43
 
 if __name__ == '__main__':
+
+    solution43 = solution43.Solution()
+    answer = solution43.multiply("2", "3")
+    print(answer)
+
+    answer = solution43.multiply("123", "456")
+    print(answer)
 
     solution150 = solution150.Solution()
     answer = solution150.evalRPN(["2","1","+","3","*"])
