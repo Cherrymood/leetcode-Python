@@ -77,8 +77,16 @@ import solution1359
 import solution28
 import solution150
 import solution43
+import solution453
 
 if __name__ == '__main__':
+
+    solution453 = solution453.Solution()
+    answer = solution453.repeatedSubstringPattern("abab")
+    print(answer)
+
+    answer = solution453.repeatedSubstringPattern("aba")
+    print(answer)
 
     solution43 = solution43.Solution()
     answer = solution43.multiply("2", "3")
