@@ -78,8 +78,16 @@ import solution28
 import solution150
 import solution43
 import solution453
+import solution989
 
 if __name__ == '__main__':
+
+    solution989 = solution989.Solution()
+    answer = solution989.addToArrayForm([1,2,0,0], 34)
+    print(answer)
+
+    answer = solution989.addToArrayForm([2,7,4], 181)
+    print(answer)
 
     solution453 = solution453.Solution()
     answer = solution453.repeatedSubstringPattern("abab")
