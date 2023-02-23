@@ -80,8 +80,13 @@ import solution43
 import solution453
 import solution989
 import solution67
+import solution53
 
 if __name__ == '__main__':
+    
+    solution53 = solution53.Solution()
+    answer = solution53.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+    print(answer)
 
     solution67 = solution67.Solution()
     answer = solution67.addBinary("11", "1")
