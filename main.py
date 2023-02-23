@@ -79,8 +79,16 @@ import solution150
 import solution43
 import solution453
 import solution989
+import solution67
 
 if __name__ == '__main__':
+
+    solution67 = solution67.Solution()
+    answer = solution67.addBinary("11", "1")
+    print(answer)
+
+    answer = solution67.addBinary("1010", "1011")
+    print(answer)
 
     solution989 = solution989.Solution()
     answer = solution989.addToArrayForm([1,2,0,0], 34)
