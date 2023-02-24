@@ -83,7 +83,7 @@ import solution67
 import solution53
 
 if __name__ == '__main__':
-    
+
     solution53 = solution53.Solution()
     answer = solution53.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
     print(answer)
