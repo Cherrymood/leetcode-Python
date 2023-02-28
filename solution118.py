@@ -6,10 +6,6 @@ class Solution:
         elif numRows == 2:
             return [[1], [1, 1]]
 
-        pascal_triangle = []
-
-        for rows, numbers in enumerate(pascal_triangle):
-            rows = numRows
 
         return pascal_triangle
 
